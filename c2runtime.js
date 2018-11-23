@@ -26017,15 +26017,15 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Keyboard,
-	cr.plugins_.Rex_CSV,
-	cr.plugins_.Sprite,
-	cr.plugins_.TiledBg,
-	cr.plugins_.Touch,
-	cr.plugins_.Text,
 	cr.plugins_.AJAX,
 	cr.plugins_.Browser,
 	cr.plugins_.Audio,
+	cr.plugins_.Keyboard,
+	cr.plugins_.TiledBg,
+	cr.plugins_.Touch,
+	cr.plugins_.Text,
+	cr.plugins_.Sprite,
+	cr.plugins_.Rex_CSV,
 	cr.behaviors.solid,
 	cr.behaviors.Flash,
 	cr.behaviors.destroy,
@@ -26060,7 +26060,6 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Flash.prototype.acts.Flash,
 	cr.plugins_.Sprite.prototype.exps.Y,
 	cr.system_object.prototype.cnds.OnLayoutStart,
-	cr.plugins_.Browser.prototype.acts.RequestFullScreen,
 	cr.plugins_.Sprite.prototype.acts.SetPos,
 	cr.system_object.prototype.exps.random,
 	cr.system_object.prototype.cnds.Repeat,
@@ -26117,6 +26116,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.AJAX.prototype.acts.Request,
 	cr.plugins_.Rex_CSV.prototype.acts.LoadCSV,
 	cr.plugins_.Rex_CSV.prototype.exps.At,
+	cr.plugins_.Text.prototype.acts.SetVisible,
 	cr.system_object.prototype.exps.round,
 	cr.system_object.prototype.exps.loadingprogress,
 	cr.system_object.prototype.cnds.OnLoadFinished
