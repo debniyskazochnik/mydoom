@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1543054233
+#1543059034
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -121,6 +121,8 @@ images/molotov_fire-sheet2.png
 images/scores_fon-sheet0.png
 images/loader_fon-sheet0.png
 images/tabl_empty-sheet0.png
+images/yellow-sheet0.png
+images/blue-sheet0.png
 media/440559__charliewd100__futuristic-smg-sound-effect.m4a
 media/440559__charliewd100__futuristic-smg-sound-effect.ogg
 media/163457__lemudcrab__ak47-shot.m4a

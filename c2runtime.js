@@ -26021,10 +26021,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
 	cr.plugins_.Audio,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Rex_CSV,
-	cr.plugins_.Sprite,
-	cr.plugins_.TiledBg,
 	cr.plugins_.Touch,
+	cr.plugins_.Rex_CSV,
+	cr.plugins_.TiledBg,
+	cr.plugins_.Sprite,
 	cr.plugins_.Text,
 	cr.behaviors.solid,
 	cr.behaviors.Flash,
@@ -26121,5 +26121,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch.prototype.cnds.IsInTouch,
 	cr.system_object.prototype.exps.round,
 	cr.system_object.prototype.exps.loadingprogress,
-	cr.system_object.prototype.cnds.OnLoadFinished
+	cr.system_object.prototype.cnds.OnLoadFinished,
+	cr.plugins_.Sprite.prototype.cnds.CompareY,
+	cr.plugins_.Sprite.prototype.acts.SetY
 ];};

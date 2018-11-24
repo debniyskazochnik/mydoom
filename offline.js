@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1543054233,
+	"version": 1543059034,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -122,6 +122,8 @@
 		"images/scores_fon-sheet0.png",
 		"images/loader_fon-sheet0.png",
 		"images/tabl_empty-sheet0.png",
+		"images/yellow-sheet0.png",
+		"images/blue-sheet0.png",
 		"media/440559__charliewd100__futuristic-smg-sound-effect.m4a",
 		"media/440559__charliewd100__futuristic-smg-sound-effect.ogg",
 		"media/163457__lemudcrab__ak47-shot.m4a",
