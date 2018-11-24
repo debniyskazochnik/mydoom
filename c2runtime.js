@@ -26021,10 +26021,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
 	cr.plugins_.Audio,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Sprite,
-	cr.plugins_.Rex_CSV,
 	cr.plugins_.TiledBg,
 	cr.plugins_.Text,
+	cr.plugins_.Rex_CSV,
+	cr.plugins_.Sprite,
 	cr.plugins_.Touch,
 	cr.behaviors.solid,
 	cr.behaviors.Flash,
@@ -26117,9 +26117,9 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Rex_CSV.prototype.acts.LoadCSV,
 	cr.plugins_.Rex_CSV.prototype.exps.At,
 	cr.plugins_.Text.prototype.acts.SetVisible,
+	cr.plugins_.Touch.prototype.cnds.IsInTouch,
 	cr.system_object.prototype.exps.round,
 	cr.system_object.prototype.exps.loadingprogress,
 	cr.system_object.prototype.cnds.OnLoadFinished,
-	cr.plugins_.Touch.prototype.cnds.IsInTouch,
 	cr.plugins_.Text.prototype.cnds.IsVisible
 ];};
